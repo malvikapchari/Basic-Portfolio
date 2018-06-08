@@ -166,84 +166,75 @@ img {
     margin-bottom: 20px;
     line-height: 35px;
     }
- 
     
-    #pic1 {
+    
+      #left1 {
+        width: 240px;
+        height: 180px;
+        border: solid #000 1px;
+        display: inline-block;
+        padding: 0;
+        background-image: url('http://placehold.it/240x180');
         position: relative;
-        left: 40px;
-       
-    }
-
-    #pic2 {
+        font-size: 19px;
+        font-style: bold;
+      }
+      #left2 {
         position: relative;
-        left: 330px; 
-        bottom: 240px;
-
-    }
-
-    #pic3 {
-        position: relative;
-        left: 40px;  
-        bottom: 227px;
-    }
-
-    #pic4 {
-        position: relative;
-        left: 330px; 
-        bottom: 450px; 
-    }
-
-    #pic5 {
-        position: relative;
-        left: 40px; 
-        bottom: 360px;
-    }
-
-    #blurb1 {
-        position:absolute;
-        padding-bottom:10px;
-        padding-top:10px;
-        padding-right:53px;
-        padding-left:52px;
-        background-color: #4aaaa5;
+        background:blue;
+        width: 200px;
+        height: 50px;
         color: white;
-        left:172px;
-        bottom:850px;
-    }
-
-    #blurb2 {
-        position:absolute;
-        padding-bottom:10px;
-        padding-top:10px;
-        padding-right:90px;
-        padding-left:89px;
-        background-color: #4aaaa5;
+      }
+    
+      #left3 {
+        position: relative;
+        background:blue;
+        width: 200px;
+        height: 50px;
         color: white;
-        left:459px;
-        bottom:850px;
-        z-index: 2;
-    }
+      }
 
-    #blurb3 {
-        position:absolute;
-        padding-bottom:10px;
-        padding-top:10px;
-        padding-right:89px;
-        padding-left:100px;
-        background-color: #4aaaa5;
+      #right1 {
+        width: 240px;
+        height: 180px;
+        border: solid #000 1px;
+        display: inline-block;
+        padding: 0;
+        background-image: url('http://placehold.it/240x180');
+        position: relative;
+        font-size: 19px;
+        font-style: bold;
+      }
+
+      #right2 {
+        float:right;
+        position: relative;
+        background:blue;
+        width: 200px;
+        height: 50px;
         color: white;
-        left:169px;
-        bottom:590px;
-    }
+      }
 
-    #blurb4 {
+      .wrapper {
+        float: left;
+  margin: 0 30px;
+      }
+
+      .row {  left: 0;
+        display: inline-block;
+        margin: 15px 0;
+
+      }
+
+      .textvalue {
         position: absolute;
-        padding-bottom:10px;
-        padding-top:10px;
-        padding-right:90px;
-        padding-left:90px;
-        background-color: #4aaaa5;
-        color: white;
-        left:172px;
-        bottom:280px;
-    }
+        left: 0;
+        width: 100%;
+        background: rgba(74, 170, 165, 0.7);
+        color: #fff;
+        height: auto;
+        line-height: 40px;
+        top: 100px;
+        text-align: center;
+      }

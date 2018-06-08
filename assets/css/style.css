@@ -174,25 +174,33 @@ img {
         border: solid #000 1px;
         display: inline-block;
         padding: 0;
-        background-image: url('http://placehold.it/240x180');
+        background-image: url('https://loremflickr.com/320/240/dog');
         position: relative;
         font-size: 19px;
         font-style: bold;
       }
       #left2 {
+        width: 240px;
+        height: 180px;
+        border: solid #000 1px;
+        display: inline-block;
+        padding: 0;
+        background-image: url('https://loremflickr.com/320/240/paris,girl/all');
         position: relative;
-        background:blue;
-        width: 200px;
-        height: 50px;
-        color: white;
+        font-size: 19px;
+        font-style: bold;
       }
     
       #left3 {
+        width: 240px;
+        height: 180px;
+        border: solid #000 1px;
+        display: inline-block;
+        padding: 0;
+        background-image: url('https://picsum.photos/g/200/300');
         position: relative;
-        background:blue;
-        width: 200px;
-        height: 50px;
-        color: white;
+        font-size: 19px;
+        font-style: bold;
       }
 
       #right1 {
@@ -201,24 +209,27 @@ img {
         border: solid #000 1px;
         display: inline-block;
         padding: 0;
-        background-image: url('http://placehold.it/240x180');
+        background-image: url('https://loremflickr.com/320/240/brazil,rio');
         position: relative;
         font-size: 19px;
         font-style: bold;
       }
 
       #right2 {
-        float:right;
+        width: 240px;
+        height: 180px;
+        border: solid #000 1px;
+        display: inline-block;
+        padding: 0;
+        background-image: url('https://picsum.photos/200/300/?random');
         position: relative;
-        background:blue;
-        width: 200px;
-        height: 50px;
-        color: white;
+        font-size: 19px;
+        font-style: bold;
       }
 
       .wrapper {
         float: left;
-  margin: 0 30px;
+        margin: 0 30px;
       }
 
       .row {  left: 0;
